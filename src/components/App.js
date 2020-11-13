@@ -25,7 +25,7 @@ class App extends Component {
             })
         },1*1000)
     }
-    componentWillMount(){
+    componentWillUnmount(){
         clearInterval(this.intervalId)
     }
     getTimeString() {
